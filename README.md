@@ -1,1 +1,1 @@
-# hateout-extension
+# hateout
