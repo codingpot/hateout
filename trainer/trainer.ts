@@ -21,6 +21,7 @@ async function main() {
         },
       }
     )
+    .filter((data: any) => data.xs["clean"] != "")
     .mapAsync(async (data: any) => {
       const out = await encoder.embed(data.xs["문장"]);
       return {
