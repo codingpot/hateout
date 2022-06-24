@@ -32,7 +32,7 @@ async function main() {
     .batch(32)
     .shuffle(32);
 
-    const val_data = tf.data
+    const valData = tf.data
     .csv(
       "https://raw.githubusercontent.com/smilegate-ai/korean_unsmile_dataset/main/unsmile_valid_v1.0.tsv",
       {
