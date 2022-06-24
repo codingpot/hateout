@@ -87,9 +87,9 @@ async function main() {
     metrics: [tf.metrics.binaryAccuracy],
   });
 
-  model.fitDataset(train_data, {
+  model.fitDataset(trainData, {
     epochs: 5,
-    validationData: val_data
+    validationData: valData
   });
 }
 
