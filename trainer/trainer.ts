@@ -3,7 +3,7 @@ import * as tf from "@tensorflow/tfjs-node";
 
 async function main() {
   const encoder = await use.load();
-  const train_data = tf.data
+  const trainData = tf.data
     .csv(
       "https://raw.githubusercontent.com/smilegate-ai/korean_unsmile_dataset/main/unsmile_train_v1.0.tsv",
       {
