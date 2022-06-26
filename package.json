@@ -1,0 +1,29 @@
+{
+  "name": "hateout",
+  "version": "1.0.0",
+  "description": "This demo project is to detect hate speeches in the browser by leveraging on-device machine learning. We will support Korean only, and provide this project as browser extensions.",
+  "private": "true",
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codingpot/hateout.git"
+  },
+  "bugs": {
+    "url": "https://github.com/codingpot/hateout/issues"
+  },
+  "workspaces": [
+    "extension/*",
+    "trainer/*"
+  ],
+  "homepage": "https://github.com/codingpot/hateout#readme",
+  "devDependencies": {
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  }
+}
