@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npx ts-node trainer.ts"
+    "build": "tsc --project tsconfig.json",
+    "start": "ts-node --project ./tsconfig.json trainer.ts"
   },
   "keywords": [],
   "author": "",

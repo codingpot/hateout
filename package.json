@@ -1,5 +1,5 @@
 {
-  "name": "hateout",
+  "name": "hateout-project",
   "version": "1.0.0",
   "description": "This demo project is to detect hate speeches in the browser by leveraging on-device machine learning. We will support Korean only, and provide this project as browser extensions.",
   "private": "true",
