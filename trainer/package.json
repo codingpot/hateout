@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npx ts-node trainer.ts"
+    "start": "ts-node trainer.ts"
   },
   "keywords": [],
   "author": "",
