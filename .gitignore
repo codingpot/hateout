@@ -1,2 +1,4 @@
-node_modules
+.idea/
 .pnpm-debug.log
+dist/
+node_modules/

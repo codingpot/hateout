@@ -2,9 +2,11 @@
   "name": "trainer",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/trainer.js",
+  "types": "dist/trainer.d.ts",
   "scripts": {
-    "build": "npx ts-node trainer.ts"
+    "build": "tsc --project tsconfig.json",
+    "start": "ts-node --project ./tsconfig.json trainer.ts"
   },
   "keywords": [],
   "author": "",
